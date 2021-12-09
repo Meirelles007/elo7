@@ -34,7 +34,8 @@ public class Principal {
 				qualSonda++;
 				String coordenada = null;
 				do {
-					coordenada = "0 2 n"; // String.parseString(JOptionPane.showInputDialog("Digite tamanho de eixo
+					coordenada = "0 2 n";
+					// String.parseString(JOptionPane.showInputDialog("Digite tamanho de eixo
 				} while (sonda1.validacaoOperacao(coordenada));
 				try {
 					Character.getNumericValue(coordenada.charAt(0));
@@ -62,9 +63,11 @@ public class Principal {
 				qualSonda--;
 				String coordenada = null;
 				do {
-					coordenada = "0 2 n"; // String.parseString(JOptionPane.showInputDialog("Digite tamanho de eixo
+					coordenada = "0 2 n";
+					// String.parseString(JOptionPane.showInputDialog("Digite tamanho de eixo
 												// X"));
-				} while (sonda2.validacaoOperacao(coordenada)); // validar entradad
+				} while (sonda2.validacaoOperacao(coordenada));
+				// validar entradad
 				try {
 					Character.getNumericValue(coordenada.charAt(0));
 					sonda2.setPosicao(coordenada);
